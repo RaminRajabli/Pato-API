@@ -1,0 +1,94 @@
+.blog{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    .title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-image: url("./background.webp") ;
+        h1{
+            font-size: 70px;
+            margin: 50px;
+            text-transform: uppercase;
+        }
+    }
+       
+    .label{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        flex-direction: column;
+        padding-top: 135px;
+        padding-bottom: 158px;
+    
+        background-image: url("./blogparallax.webp");
+    
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        h2{
+            font-weight: 700;
+            font-size: 50px;
+            line-height: 1.2;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 10px;
+            word-spacing: 6px;
+            text-align: center;
+        }
+    }
+    .input{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    background-image: url("./background.webp") ;
+    .card{
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 60px 30px;
+        
+        form{
+            width: 50%;
+            display: flex;
+            justify-content: center;
+            // align-items: center;
+            flex-direction: column;
+            textarea{
+                margin: 20px 0;
+                height: 150px;
+            }
+            input{
+                margin: 20px 0;
+            }
+        }
+
+        .card_image{
+            cursor: pointer;
+            margin-bottom: 10px;
+            height: 50px;
+            display: flex;
+            // justify-content: center;
+            align-items: center;
+            transition: 0.3s;
+            span{
+                margin-right:10px;
+            }
+
+            &:hover{
+                color: #d61c22;
+            }
+        }
+    }
+
+    
+}

@@ -1,0 +1,15 @@
+.about{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .title{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-image: url("./background.webp") ;
+        h1{
+            margin: 50px;
+        }
+    }
+       
+}

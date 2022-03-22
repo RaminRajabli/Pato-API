@@ -1,0 +1,107 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+a{
+    // text-decoration: none;
+}
+button{
+    outline-style: none;
+    border: none;
+    background: none;
+}
+ul,ol{
+    list-style: none;
+}
+p{
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+button{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+            width: 150px;
+            height: 40px;
+            border-radius: 10px;
+            background-color: #222;
+            // font-family: Montserrat;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 1.1;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            transition: 0.5s;
+            &:hover{
+                background-color: #d41b22;
+            }
+}
+
+input{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    outline-style: none;
+    margin: 30px 0;
+    border: 2px solid #d9d9d9;
+    &:focus{
+        border: 2px solid #d61c22;
+    }
+    padding-left: 20px;
+    color: #666;
+    &::placeholder{
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+}
+
+textarea{
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    border-style: none;
+    outline-style: none;
+    margin: 30px 0;
+    border: 2px solid #d9d9d9;
+    &:focus{
+        border: 2px solid #d61c22;
+    }
+    padding-left: 20px;
+    padding-top: 15px;
+    color: #666;
+    &::placeholder{
+        font-family: Montserrat;
+        font-weight: 400;
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+}
+
+label{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    color: #555;
+    text-transform:capitalize;
+    // position: absolute;
+    top: 5px;
+}
+
+p{
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 20px;
+    color: #555;
+    text-transform:capitalize;
+    margin-top: 10px;
+}
+
+
